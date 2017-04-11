@@ -1,0 +1,655 @@
+nohup: les entrées sont ignorées
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla P100-SXM2-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.4805
+pciBusID 0000:05:00.0
+Total memory: 15.89GiB
+Free memory: 15.61GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x293a140
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 1 with properties: 
+name: Tesla P100-SXM2-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.4805
+pciBusID 0000:06:00.0
+Total memory: 15.89GiB
+Free memory: 15.61GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x293dac0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 2 with properties: 
+name: Tesla P100-SXM2-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.4805
+pciBusID 0000:84:00.0
+Total memory: 15.89GiB
+Free memory: 15.61GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x29418c0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 3 with properties: 
+name: Tesla P100-SXM2-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.4805
+pciBusID 0000:85:00.0
+Total memory: 15.89GiB
+Free memory: 15.61GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 1 2 3 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 1:   Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 2:   Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 3:   Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla P100-SXM2-16GB, pci bus id: 0000:06:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla P100-SXM2-16GB, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla P100-SXM2-16GB, pci bus id: 0000:85:00.0)
+Retrieving Data
+Data Retrieved
+(40263, 48, 48, 1) (40263, 7)
+EPOCH: 0
+epoch: 0 batch: 0 / 273 loss: 1.94539 accuracy: 0.219077
+epoch: 0 batch: 20 / 273 loss: 1.93691 accuracy: 0.219077
+epoch: 0 batch: 40 / 273 loss: 1.92576 accuracy: 0.219077
+epoch: 0 batch: 60 / 273 loss: 1.92044 accuracy: 0.219077
+epoch: 0 batch: 80 / 273 loss: 1.91774 accuracy: 0.219077
+epoch: 0 batch: 100 / 273 loss: 1.91845 accuracy: 0.219077
+epoch: 0 batch: 120 / 273 loss: 1.91605 accuracy: 0.219077
+epoch: 0 batch: 140 / 273 loss: 1.91587 accuracy: 0.219077
+epoch: 0 batch: 160 / 273 loss: 1.9168 accuracy: 0.219077
+epoch: 0 batch: 180 / 273 loss: 1.91853 accuracy: 0.219077
+epoch: 0 batch: 200 / 273 loss: 1.91763 accuracy: 0.219077
+epoch: 0 batch: 220 / 273 loss: 1.91589 accuracy: 0.219077
+epoch: 0 batch: 240 / 273 loss: 1.90784 accuracy: 0.219077
+epoch: 0 batch: 260 / 273 loss: 1.9018 accuracy: 0.219077
+EPOCH: 1
+epoch: 1 batch: 0 / 273 loss: 1.89736 accuracy: 0.219077
+epoch: 1 batch: 20 / 273 loss: 1.89727 accuracy: 0.219077
+epoch: 1 batch: 40 / 273 loss: 1.89623 accuracy: 0.219077
+epoch: 1 batch: 60 / 273 loss: 1.90501 accuracy: 0.219077
+epoch: 1 batch: 80 / 273 loss: 1.88702 accuracy: 0.219077
+epoch: 1 batch: 100 / 273 loss: 1.86834 accuracy: 0.229907
+epoch: 1 batch: 120 / 273 loss: 1.85208 accuracy: 0.265058
+epoch: 1 batch: 140 / 273 loss: 1.80893 accuracy: 0.290519
+epoch: 1 batch: 160 / 273 loss: 1.8519 accuracy: 0.252328
+epoch: 1 batch: 180 / 273 loss: 1.79684 accuracy: 0.272278
+epoch: 1 batch: 200 / 273 loss: 1.77898 accuracy: 0.302489
+epoch: 1 batch: 220 / 273 loss: 1.77198 accuracy: 0.289189
+epoch: 1 batch: 240 / 273 loss: 1.7706 accuracy: 0.295839
+epoch: 1 batch: 260 / 273 loss: 1.75333 accuracy: 0.305719
+EPOCH: 2
+epoch: 2 batch: 0 / 273 loss: 1.73335 accuracy: 0.32985
+epoch: 2 batch: 20 / 273 loss: 1.71392 accuracy: 0.34144
+epoch: 2 batch: 40 / 273 loss: 1.69238 accuracy: 0.357971
+epoch: 2 batch: 60 / 273 loss: 1.67204 accuracy: 0.366901
+epoch: 2 batch: 80 / 273 loss: 1.66633 accuracy: 0.372221
+epoch: 2 batch: 100 / 273 loss: 1.64378 accuracy: 0.377731
+epoch: 2 batch: 120 / 273 loss: 1.61317 accuracy: 0.390272
+epoch: 2 batch: 140 / 273 loss: 1.61585 accuracy: 0.387422
+epoch: 2 batch: 160 / 273 loss: 1.60102 accuracy: 0.400722
+epoch: 2 batch: 180 / 273 loss: 1.59136 accuracy: 0.390272
+epoch: 2 batch: 200 / 273 loss: 1.59972 accuracy: 0.389512
+epoch: 2 batch: 220 / 273 loss: 1.58198 accuracy: 0.402242
+epoch: 2 batch: 240 / 273 loss: 1.58906 accuracy: 0.393312
+epoch: 2 batch: 260 / 273 loss: 1.55524 accuracy: 0.412882
+EPOCH: 3
+epoch: 3 batch: 0 / 273 loss: 1.54188 accuracy: 0.418393
+epoch: 3 batch: 20 / 273 loss: 1.52499 accuracy: 0.425233
+epoch: 3 batch: 40 / 273 loss: 1.51699 accuracy: 0.422193
+epoch: 3 batch: 60 / 273 loss: 1.51192 accuracy: 0.428083
+epoch: 3 batch: 80 / 273 loss: 1.5024 accuracy: 0.424853
+epoch: 3 batch: 100 / 273 loss: 1.4978 accuracy: 0.430173
+epoch: 3 batch: 120 / 273 loss: 1.48211 accuracy: 0.439103
+epoch: 3 batch: 140 / 273 loss: 1.49649 accuracy: 0.432453
+epoch: 3 batch: 160 / 273 loss: 1.44537 accuracy: 0.451454
+epoch: 3 batch: 180 / 273 loss: 1.44134 accuracy: 0.453354
+epoch: 3 batch: 200 / 273 loss: 1.4346 accuracy: 0.456014
+epoch: 3 batch: 220 / 273 loss: 1.41614 accuracy: 0.457914
+epoch: 3 batch: 240 / 273 loss: 1.42582 accuracy: 0.460384
+epoch: 3 batch: 260 / 273 loss: 1.42334 accuracy: 0.459814
+EPOCH: 4
+epoch: 4 batch: 0 / 273 loss: 1.41531 accuracy: 0.457154
+epoch: 4 batch: 20 / 273 loss: 1.41265 accuracy: 0.462474
+epoch: 4 batch: 40 / 273 loss: 1.38887 accuracy: 0.467224
+epoch: 4 batch: 60 / 273 loss: 1.3748 accuracy: 0.479574
+epoch: 4 batch: 80 / 273 loss: 1.38346 accuracy: 0.464944
+epoch: 4 batch: 100 / 273 loss: 1.3878 accuracy: 0.481854
+epoch: 4 batch: 120 / 273 loss: 1.39421 accuracy: 0.469504
+epoch: 4 batch: 140 / 273 loss: 1.34439 accuracy: 0.489075
+epoch: 4 batch: 160 / 273 loss: 1.33257 accuracy: 0.491165
+epoch: 4 batch: 180 / 273 loss: 1.32996 accuracy: 0.489265
+epoch: 4 batch: 200 / 273 loss: 1.30814 accuracy: 0.502375
+epoch: 4 batch: 220 / 273 loss: 1.33684 accuracy: 0.491545
+epoch: 4 batch: 240 / 273 loss: 1.30568 accuracy: 0.496865
+epoch: 4 batch: 260 / 273 loss: 1.29635 accuracy: 0.501045
+EPOCH: 5
+epoch: 5 batch: 0 / 273 loss: 1.29489 accuracy: 0.508455
+epoch: 5 batch: 20 / 273 loss: 1.37162 accuracy: 0.471594
+epoch: 5 batch: 40 / 273 loss: 1.29838 accuracy: 0.506745
+epoch: 5 batch: 60 / 273 loss: 1.28291 accuracy: 0.508835
+epoch: 5 batch: 80 / 273 loss: 1.28346 accuracy: 0.506555
+epoch: 5 batch: 100 / 273 loss: 1.29045 accuracy: 0.501805
+epoch: 5 batch: 120 / 273 loss: 1.26445 accuracy: 0.517195
+epoch: 5 batch: 140 / 273 loss: 1.27108 accuracy: 0.510355
+epoch: 5 batch: 160 / 273 loss: 1.24319 accuracy: 0.519096
+epoch: 5 batch: 180 / 273 loss: 1.2809 accuracy: 0.510355
+epoch: 5 batch: 200 / 273 loss: 1.237 accuracy: 0.523656
+epoch: 5 batch: 220 / 273 loss: 1.23228 accuracy: 0.521186
+epoch: 5 batch: 240 / 273 loss: 1.21694 accuracy: 0.527836
+epoch: 5 batch: 260 / 273 loss: 1.20946 accuracy: 0.531066
+EPOCH: 6
+epoch: 6 batch: 0 / 273 loss: 1.23384 accuracy: 0.517576
+epoch: 6 batch: 20 / 273 loss: 1.2127 accuracy: 0.528026
+epoch: 6 batch: 40 / 273 loss: 1.22469 accuracy: 0.526316
+epoch: 6 batch: 60 / 273 loss: 1.22884 accuracy: 0.517385
+epoch: 6 batch: 80 / 273 loss: 1.20944 accuracy: 0.530496
+epoch: 6 batch: 100 / 273 loss: 1.19255 accuracy: 0.536956
+epoch: 6 batch: 120 / 273 loss: 1.19164 accuracy: 0.542276
+epoch: 6 batch: 140 / 273 loss: 1.21121 accuracy: 0.527456
+epoch: 6 batch: 160 / 273 loss: 1.20468 accuracy: 0.537716
+epoch: 6 batch: 180 / 273 loss: 1.19206 accuracy: 0.534866
+epoch: 6 batch: 200 / 273 loss: 1.17487 accuracy: 0.547596
+epoch: 6 batch: 220 / 273 loss: 1.1842 accuracy: 0.535436
+epoch: 6 batch: 240 / 273 loss: 1.18449 accuracy: 0.534866
+epoch: 6 batch: 260 / 273 loss: 1.17433 accuracy: 0.542846
+EPOCH: 7
+epoch: 7 batch: 0 / 273 loss: 1.18325 accuracy: 0.534866
+epoch: 7 batch: 20 / 273 loss: 1.1619 accuracy: 0.543226
+epoch: 7 batch: 40 / 273 loss: 1.16233 accuracy: 0.555767
+epoch: 7 batch: 60 / 273 loss: 1.16101 accuracy: 0.548926
+epoch: 7 batch: 80 / 273 loss: 1.15001 accuracy: 0.548546
+epoch: 7 batch: 100 / 273 loss: 1.15878 accuracy: 0.549116
+epoch: 7 batch: 120 / 273 loss: 1.16749 accuracy: 0.546836
+epoch: 7 batch: 140 / 273 loss: 1.14714 accuracy: 0.555387
+epoch: 7 batch: 160 / 273 loss: 1.13962 accuracy: 0.563177
+epoch: 7 batch: 180 / 273 loss: 1.15665 accuracy: 0.555197
+epoch: 7 batch: 200 / 273 loss: 1.15474 accuracy: 0.556527
+epoch: 7 batch: 220 / 273 loss: 1.13712 accuracy: 0.556527
+epoch: 7 batch: 240 / 273 loss: 1.14502 accuracy: 0.557857
+epoch: 7 batch: 260 / 273 loss: 1.13874 accuracy: 0.555957
+EPOCH: 8
+epoch: 8 batch: 0 / 273 loss: 1.15862 accuracy: 0.547596
+epoch: 8 batch: 20 / 273 loss: 1.13689 accuracy: 0.562227
+epoch: 8 batch: 40 / 273 loss: 1.14061 accuracy: 0.565267
+epoch: 8 batch: 60 / 273 loss: 1.13355 accuracy: 0.557477
+epoch: 8 batch: 80 / 273 loss: 1.12377 accuracy: 0.569447
+epoch: 8 batch: 100 / 273 loss: 1.13725 accuracy: 0.559567
+epoch: 8 batch: 120 / 273 loss: 1.12028 accuracy: 0.570587
+epoch: 8 batch: 140 / 273 loss: 1.12356 accuracy: 0.570777
+epoch: 8 batch: 160 / 273 loss: 1.11359 accuracy: 0.570207
+epoch: 8 batch: 180 / 273 loss: 1.12422 accuracy: 0.560327
+epoch: 8 batch: 200 / 273 loss: 1.13127 accuracy: 0.562607
+epoch: 8 batch: 220 / 273 loss: 1.12478 accuracy: 0.567547
+epoch: 8 batch: 240 / 273 loss: 1.11042 accuracy: 0.573057
+epoch: 8 batch: 260 / 273 loss: 1.1087 accuracy: 0.576667
+EPOCH: 9
+epoch: 9 batch: 0 / 273 loss: 1.13051 accuracy: 0.567737
+epoch: 9 batch: 20 / 273 loss: 1.11254 accuracy: 0.570017
+epoch: 9 batch: 40 / 273 loss: 1.17261 accuracy: 0.544936
+epoch: 9 batch: 60 / 273 loss: 1.11102 accuracy: 0.569447
+epoch: 9 batch: 80 / 273 loss: 1.1399 accuracy: 0.556337
+epoch: 9 batch: 100 / 273 loss: 1.11437 accuracy: 0.578947
+epoch: 9 batch: 120 / 273 loss: 1.12085 accuracy: 0.571537
+epoch: 9 batch: 140 / 273 loss: 1.10807 accuracy: 0.582367
+epoch: 9 batch: 160 / 273 loss: 1.11895 accuracy: 0.576477
+epoch: 9 batch: 180 / 273 loss: 1.12702 accuracy: 0.570017
+epoch: 9 batch: 200 / 273 loss: 1.11243 accuracy: 0.575717
+epoch: 9 batch: 220 / 273 loss: 1.11985 accuracy: 0.563747
+epoch: 9 batch: 240 / 273 loss: 1.13549 accuracy: 0.573627
+epoch: 9 batch: 260 / 273 loss: 1.10569 accuracy: 0.577807
+EPOCH: 10
+epoch: 10 batch: 0 / 273 loss: 1.13315 accuracy: 0.565837
+epoch: 10 batch: 20 / 273 loss: 1.12921 accuracy: 0.571347
+epoch: 10 batch: 40 / 273 loss: 1.14183 accuracy: 0.570207
+epoch: 10 batch: 60 / 273 loss: 1.14063 accuracy: 0.570587
+epoch: 10 batch: 80 / 273 loss: 1.11456 accuracy: 0.581607
+epoch: 10 batch: 100 / 273 loss: 1.10883 accuracy: 0.571917
+epoch: 10 batch: 120 / 273 loss: 1.12736 accuracy: 0.572867
+epoch: 10 batch: 140 / 273 loss: 1.09759 accuracy: 0.580087
+epoch: 10 batch: 160 / 273 loss: 1.09202 accuracy: 0.581227
+epoch: 10 batch: 180 / 273 loss: 1.09044 accuracy: 0.585978
+epoch: 10 batch: 200 / 273 loss: 1.11976 accuracy: 0.578757
+epoch: 10 batch: 220 / 273 loss: 1.08079 accuracy: 0.585977
+epoch: 10 batch: 240 / 273 loss: 1.09529 accuracy: 0.579137
+epoch: 10 batch: 260 / 273 loss: 1.10628 accuracy: 0.583127
+EPOCH: 11
+epoch: 11 batch: 0 / 273 loss: 1.11541 accuracy: 0.589778
+epoch: 11 batch: 20 / 273 loss: 1.15425 accuracy: 0.579707
+epoch: 11 batch: 40 / 273 loss: 1.12965 accuracy: 0.573627
+epoch: 11 batch: 60 / 273 loss: 1.12961 accuracy: 0.580657
+epoch: 11 batch: 80 / 273 loss: 1.12617 accuracy: 0.582557
+epoch: 11 batch: 100 / 273 loss: 1.11963 accuracy: 0.584837
+epoch: 11 batch: 120 / 273 loss: 1.10986 accuracy: 0.583127
+epoch: 11 batch: 140 / 273 loss: 1.13875 accuracy: 0.582747
+epoch: 11 batch: 160 / 273 loss: 1.12561 accuracy: 0.584267
+epoch: 11 batch: 180 / 273 loss: 1.1144 accuracy: 0.577237
+epoch: 11 batch: 200 / 273 loss: 1.11913 accuracy: 0.584457
+epoch: 11 batch: 220 / 273 loss: 1.10512 accuracy: 0.585788
+epoch: 11 batch: 240 / 273 loss: 1.11408 accuracy: 0.585787
+epoch: 11 batch: 260 / 273 loss: 1.12539 accuracy: 0.583317
+EPOCH: 12
+epoch: 12 batch: 0 / 273 loss: 1.11661 accuracy: 0.580847
+epoch: 12 batch: 20 / 273 loss: 1.13354 accuracy: 0.591298
+epoch: 12 batch: 40 / 273 loss: 1.12952 accuracy: 0.586358
+epoch: 12 batch: 60 / 273 loss: 1.13314 accuracy: 0.592628
+epoch: 12 batch: 80 / 273 loss: 1.16209 accuracy: 0.572867
+epoch: 12 batch: 100 / 273 loss: 1.13697 accuracy: 0.576667
+epoch: 12 batch: 120 / 273 loss: 1.15681 accuracy: 0.568687
+epoch: 12 batch: 140 / 273 loss: 1.11152 accuracy: 0.582937
+epoch: 12 batch: 160 / 273 loss: 1.12109 accuracy: 0.586358
+epoch: 12 batch: 180 / 273 loss: 1.10662 accuracy: 0.590158
+epoch: 12 batch: 200 / 273 loss: 1.11873 accuracy: 0.590158
+epoch: 12 batch: 220 / 273 loss: 1.1277 accuracy: 0.585977
+epoch: 12 batch: 240 / 273 loss: 1.13824 accuracy: 0.586548
+epoch: 12 batch: 260 / 273 loss: 1.1132 accuracy: 0.584077
+EPOCH: 13
+epoch: 13 batch: 0 / 273 loss: 1.1251 accuracy: 0.573817
+epoch: 13 batch: 20 / 273 loss: 1.15404 accuracy: 0.593388
+epoch: 13 batch: 40 / 273 loss: 1.14624 accuracy: 0.586928
+epoch: 13 batch: 60 / 273 loss: 1.14875 accuracy: 0.590158
+epoch: 13 batch: 80 / 273 loss: 1.12611 accuracy: 0.591488
+epoch: 13 batch: 100 / 273 loss: 1.16025 accuracy: 0.581227
+epoch: 13 batch: 120 / 273 loss: 1.1657 accuracy: 0.579897
+epoch: 13 batch: 140 / 273 loss: 1.136 accuracy: 0.588258
+epoch: 13 batch: 160 / 273 loss: 1.15563 accuracy: 0.580087
+epoch: 13 batch: 180 / 273 loss: 1.14692 accuracy: 0.583507
+epoch: 13 batch: 200 / 273 loss: 1.14722 accuracy: 0.589778
+epoch: 13 batch: 220 / 273 loss: 1.18911 accuracy: 0.571347
+epoch: 13 batch: 240 / 273 loss: 1.17217 accuracy: 0.585217
+epoch: 13 batch: 260 / 273 loss: 1.15526 accuracy: 0.594148
+EPOCH: 14
+epoch: 14 batch: 0 / 273 loss: 1.16105 accuracy: 0.588068
+epoch: 14 batch: 20 / 273 loss: 1.20248 accuracy: 0.590728
+epoch: 14 batch: 40 / 273 loss: 1.16321 accuracy: 0.587688
+epoch: 14 batch: 60 / 273 loss: 1.19318 accuracy: 0.581987
+epoch: 14 batch: 80 / 273 loss: 1.16869 accuracy: 0.592818
+epoch: 14 batch: 100 / 273 loss: 1.18493 accuracy: 0.582367
+epoch: 14 batch: 120 / 273 loss: 1.16993 accuracy: 0.591868
+epoch: 14 batch: 140 / 273 loss: 1.19403 accuracy: 0.588828
+epoch: 14 batch: 160 / 273 loss: 1.19229 accuracy: 0.583887
+epoch: 14 batch: 180 / 273 loss: 1.23345 accuracy: 0.579327
+epoch: 14 batch: 200 / 273 loss: 1.1922 accuracy: 0.582367
+epoch: 14 batch: 220 / 273 loss: 1.16299 accuracy: 0.598138
+epoch: 14 batch: 240 / 273 loss: 1.19556 accuracy: 0.582937
+epoch: 14 batch: 260 / 273 loss: 1.17328 accuracy: 0.592248
+EPOCH: 15
+epoch: 15 batch: 0 / 273 loss: 1.1959 accuracy: 0.578757
+epoch: 15 batch: 20 / 273 loss: 1.21493 accuracy: 0.585218
+epoch: 15 batch: 40 / 273 loss: 1.21699 accuracy: 0.590728
+epoch: 15 batch: 60 / 273 loss: 1.2171 accuracy: 0.582367
+epoch: 15 batch: 80 / 273 loss: 1.21199 accuracy: 0.593198
+epoch: 15 batch: 100 / 273 loss: 1.19906 accuracy: 0.585598
+epoch: 15 batch: 120 / 273 loss: 1.21796 accuracy: 0.595098
+epoch: 15 batch: 140 / 273 loss: 1.25269 accuracy: 0.589398
+epoch: 15 batch: 160 / 273 loss: 1.2748 accuracy: 0.586927
+epoch: 15 batch: 180 / 273 loss: 1.2146 accuracy: 0.590538
+epoch: 15 batch: 200 / 273 loss: 1.23572 accuracy: 0.589018
+epoch: 15 batch: 220 / 273 loss: 1.20263 accuracy: 0.592248
+epoch: 15 batch: 240 / 273 loss: 1.19455 accuracy: 0.589778
+epoch: 15 batch: 260 / 273 loss: 1.24924 accuracy: 0.585977
+EPOCH: 16
+epoch: 16 batch: 0 / 273 loss: 1.2325 accuracy: 0.583887
+epoch: 16 batch: 20 / 273 loss: 1.24603 accuracy: 0.593198
+epoch: 16 batch: 40 / 273 loss: 1.27949 accuracy: 0.576667
+epoch: 16 batch: 60 / 273 loss: 1.25265 accuracy: 0.587118
+epoch: 16 batch: 80 / 273 loss: 1.25628 accuracy: 0.597568
+epoch: 16 batch: 100 / 273 loss: 1.26531 accuracy: 0.593008
+epoch: 16 batch: 120 / 273 loss: 1.31599 accuracy: 0.582367
+epoch: 16 batch: 140 / 273 loss: 1.25704 accuracy: 0.589778
+epoch: 16 batch: 160 / 273 loss: 1.27491 accuracy: 0.579707
+epoch: 16 batch: 180 / 273 loss: 1.25998 accuracy: 0.592818
+epoch: 16 batch: 200 / 273 loss: 1.32581 accuracy: 0.570017
+epoch: 16 batch: 220 / 273 loss: 1.28156 accuracy: 0.593198
+epoch: 16 batch: 240 / 273 loss: 1.29019 accuracy: 0.587497
+epoch: 16 batch: 260 / 273 loss: 1.25208 accuracy: 0.593198
+EPOCH: 17
+epoch: 17 batch: 0 / 273 loss: 1.26088 accuracy: 0.594148
+epoch: 17 batch: 20 / 273 loss: 1.28616 accuracy: 0.593768
+epoch: 17 batch: 40 / 273 loss: 1.29345 accuracy: 0.588638
+epoch: 17 batch: 60 / 273 loss: 1.34227 accuracy: 0.588448
+epoch: 17 batch: 80 / 273 loss: 1.3039 accuracy: 0.590538
+epoch: 17 batch: 100 / 273 loss: 1.29019 accuracy: 0.586358
+epoch: 17 batch: 120 / 273 loss: 1.3159 accuracy: 0.592248
+epoch: 17 batch: 140 / 273 loss: 1.29318 accuracy: 0.586168
+epoch: 17 batch: 160 / 273 loss: 1.31326 accuracy: 0.590728
+epoch: 17 batch: 180 / 273 loss: 1.34148 accuracy: 0.592248
+epoch: 17 batch: 200 / 273 loss: 1.30405 accuracy: 0.586738
+epoch: 17 batch: 220 / 273 loss: 1.31695 accuracy: 0.577427
+epoch: 17 batch: 240 / 273 loss: 1.31034 accuracy: 0.587688
+epoch: 17 batch: 260 / 273 loss: 1.33739 accuracy: 0.583887
+EPOCH: 18
+epoch: 18 batch: 0 / 273 loss: 1.30034 accuracy: 0.588258
+epoch: 18 batch: 20 / 273 loss: 1.34025 accuracy: 0.595668
+epoch: 18 batch: 40 / 273 loss: 1.37363 accuracy: 0.595668
+epoch: 18 batch: 60 / 273 loss: 1.38679 accuracy: 0.596998
+epoch: 18 batch: 80 / 273 loss: 1.41413 accuracy: 0.591298
+epoch: 18 batch: 100 / 273 loss: 1.37925 accuracy: 0.587118
+epoch: 18 batch: 120 / 273 loss: 1.44849 accuracy: 0.582747
+epoch: 18 batch: 140 / 273 loss: 1.38508 accuracy: 0.594148
+epoch: 18 batch: 160 / 273 loss: 1.37425 accuracy: 0.587118
+epoch: 18 batch: 180 / 273 loss: 1.39832 accuracy: 0.590538
+epoch: 18 batch: 200 / 273 loss: 1.4049 accuracy: 0.581607
+epoch: 18 batch: 220 / 273 loss: 1.3771 accuracy: 0.579327
+epoch: 18 batch: 240 / 273 loss: 1.34827 accuracy: 0.584647
+epoch: 18 batch: 260 / 273 loss: 1.42512 accuracy: 0.594718
+EPOCH: 19
+epoch: 19 batch: 0 / 273 loss: 1.37568 accuracy: 0.594338
+epoch: 19 batch: 20 / 273 loss: 1.4092 accuracy: 0.597568
+epoch: 19 batch: 40 / 273 loss: 1.42466 accuracy: 0.588068
+epoch: 19 batch: 60 / 273 loss: 1.48739 accuracy: 0.581797
+epoch: 19 batch: 80 / 273 loss: 1.45366 accuracy: 0.592628
+epoch: 19 batch: 100 / 273 loss: 1.51809 accuracy: 0.584647
+epoch: 19 batch: 120 / 273 loss: 1.42898 accuracy: 0.588258
+epoch: 19 batch: 140 / 273 loss: 1.43911 accuracy: 0.592058I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla P100-SXM2-16GB, pci bus id: 0000:06:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla P100-SXM2-16GB, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla P100-SXM2-16GB, pci bus id: 0000:85:00.0)
+
+epoch: 19 batch: 160 / 273 loss: 1.43354 accuracy: 0.592248
+epoch: 19 batch: 180 / 273 loss: 1.48672 accuracy: 0.585027
+epoch: 19 batch: 200 / 273 loss: 1.47522 accuracy: 0.591678
+epoch: 19 batch: 220 / 273 loss: 1.49556 accuracy: 0.576287
+epoch: 19 batch: 240 / 273 loss: 1.41696 accuracy: 0.572867
+epoch: 19 batch: 260 / 273 loss: 1.43312 accuracy: 0.595098
+EPOCH: 0
+epoch: 0 batch: 0 / 273 loss: 1.94558 accuracy: 0.219077
+epoch: 0 batch: 20 / 273 loss: 1.93506 accuracy: 0.219077
+epoch: 0 batch: 40 / 273 loss: 1.91838 accuracy: 0.219077
+epoch: 0 batch: 60 / 273 loss: 1.91807 accuracy: 0.219077
+epoch: 0 batch: 80 / 273 loss: 1.91773 accuracy: 0.219077
+epoch: 0 batch: 100 / 273 loss: 1.91621 accuracy: 0.219077
+epoch: 0 batch: 120 / 273 loss: 1.91455 accuracy: 0.219077
+epoch: 0 batch: 140 / 273 loss: 1.91281 accuracy: 0.219077
+epoch: 0 batch: 160 / 273 loss: 1.91321 accuracy: 0.219077
+epoch: 0 batch: 180 / 273 loss: 1.91114 accuracy: 0.219077
+epoch: 0 batch: 200 / 273 loss: 1.90028 accuracy: 0.219077
+epoch: 0 batch: 220 / 273 loss: 1.89423 accuracy: 0.219077
+epoch: 0 batch: 240 / 273 loss: 1.89238 accuracy: 0.219077
+epoch: 0 batch: 260 / 273 loss: 1.89354 accuracy: 0.219077
+EPOCH: 1
+epoch: 1 batch: 0 / 273 loss: 1.89544 accuracy: 0.219077
+epoch: 1 batch: 20 / 273 loss: 1.8766 accuracy: 0.235417
+epoch: 1 batch: 40 / 273 loss: 1.8671 accuracy: 0.259168
+epoch: 1 batch: 60 / 273 loss: 1.86119 accuracy: 0.254418
+epoch: 1 batch: 80 / 273 loss: 1.88287 accuracy: 0.242257
+epoch: 1 batch: 100 / 273 loss: 1.86552 accuracy: 0.268668
+epoch: 1 batch: 120 / 273 loss: 1.84041 accuracy: 0.267528
+epoch: 1 batch: 140 / 273 loss: 1.81104 accuracy: 0.268668
+epoch: 1 batch: 160 / 273 loss: 1.78819 accuracy: 0.280828
+epoch: 1 batch: 180 / 273 loss: 1.78365 accuracy: 0.282728
+epoch: 1 batch: 200 / 273 loss: 1.75264 accuracy: 0.298879
+epoch: 1 batch: 220 / 273 loss: 1.7405 accuracy: 0.31807
+epoch: 1 batch: 240 / 273 loss: 1.71818 accuracy: 0.32624
+epoch: 1 batch: 260 / 273 loss: 1.70173 accuracy: 0.32738
+EPOCH: 2
+epoch: 2 batch: 0 / 273 loss: 1.704 accuracy: 0.33365
+epoch: 2 batch: 20 / 273 loss: 1.67119 accuracy: 0.360631
+epoch: 2 batch: 40 / 273 loss: 1.66789 accuracy: 0.363101
+epoch: 2 batch: 60 / 273 loss: 1.63875 accuracy: 0.378681
+epoch: 2 batch: 80 / 273 loss: 1.62321 accuracy: 0.384762
+epoch: 2 batch: 100 / 273 loss: 1.60838 accuracy: 0.387042
+epoch: 2 batch: 120 / 273 loss: 1.61297 accuracy: 0.386282
+epoch: 2 batch: 140 / 273 loss: 1.58127 accuracy: 0.405472
+epoch: 2 batch: 160 / 273 loss: 1.57218 accuracy: 0.401862
+epoch: 2 batch: 180 / 273 loss: 1.55874 accuracy: 0.410032
+epoch: 2 batch: 200 / 273 loss: 1.54421 accuracy: 0.414212
+epoch: 2 batch: 220 / 273 loss: 1.51876 accuracy: 0.418012
+epoch: 2 batch: 240 / 273 loss: 1.52032 accuracy: 0.421243
+epoch: 2 batch: 260 / 273 loss: 1.50383 accuracy: 0.425803
+EPOCH: 3
+epoch: 3 batch: 0 / 273 loss: 1.51073 accuracy: 0.426373
+epoch: 3 batch: 20 / 273 loss: 1.49038 accuracy: 0.435873
+epoch: 3 batch: 40 / 273 loss: 1.47509 accuracy: 0.438913
+epoch: 3 batch: 60 / 273 loss: 1.48002 accuracy: 0.428083
+epoch: 3 batch: 80 / 273 loss: 1.48542 accuracy: 0.429793
+epoch: 3 batch: 100 / 273 loss: 1.47244 accuracy: 0.447273
+epoch: 3 batch: 120 / 273 loss: 1.4623 accuracy: 0.444993
+epoch: 3 batch: 140 / 273 loss: 1.44913 accuracy: 0.438723
+epoch: 3 batch: 160 / 273 loss: 1.43227 accuracy: 0.446513
+epoch: 3 batch: 180 / 273 loss: 1.41559 accuracy: 0.461144
+epoch: 3 batch: 200 / 273 loss: 1.42547 accuracy: 0.455634
+epoch: 3 batch: 220 / 273 loss: 1.42512 accuracy: 0.448603
+epoch: 3 batch: 240 / 273 loss: 1.42392 accuracy: 0.454684
+epoch: 3 batch: 260 / 273 loss: 1.3889 accuracy: 0.471024
+EPOCH: 4
+epoch: 4 batch: 0 / 273 loss: 1.38896 accuracy: 0.468174
+epoch: 4 batch: 20 / 273 loss: 1.39456 accuracy: 0.465894
+epoch: 4 batch: 40 / 273 loss: 1.38166 accuracy: 0.475584
+epoch: 4 batch: 60 / 273 loss: 1.40379 accuracy: 0.458864
+epoch: 4 batch: 80 / 273 loss: 1.3713 accuracy: 0.472354
+epoch: 4 batch: 100 / 273 loss: 1.36152 accuracy: 0.478244
+epoch: 4 batch: 120 / 273 loss: 1.33613 accuracy: 0.490785
+epoch: 4 batch: 140 / 273 loss: 1.35499 accuracy: 0.483374
+epoch: 4 batch: 160 / 273 loss: 1.31105 accuracy: 0.494585
+epoch: 4 batch: 180 / 273 loss: 1.32 accuracy: 0.494585
+epoch: 4 batch: 200 / 273 loss: 1.32029 accuracy: 0.494395
+epoch: 4 batch: 220 / 273 loss: 1.29335 accuracy: 0.504845
+epoch: 4 batch: 240 / 273 loss: 1.28523 accuracy: 0.513015
+epoch: 4 batch: 260 / 273 loss: 1.27572 accuracy: 0.509025
+EPOCH: 5
+epoch: 5 batch: 0 / 273 loss: 1.26167 accuracy: 0.511495
+epoch: 5 batch: 20 / 273 loss: 1.26232 accuracy: 0.514915
+epoch: 5 batch: 40 / 273 loss: 1.25012 accuracy: 0.512445
+epoch: 5 batch: 60 / 273 loss: 1.26355 accuracy: 0.511305
+epoch: 5 batch: 80 / 273 loss: 1.24743 accuracy: 0.514345
+epoch: 5 batch: 100 / 273 loss: 1.24413 accuracy: 0.525746
+epoch: 5 batch: 120 / 273 loss: 1.22665 accuracy: 0.528406
+epoch: 5 batch: 140 / 273 loss: 1.23191 accuracy: 0.528786
+epoch: 5 batch: 160 / 273 loss: 1.21954 accuracy: 0.526126
+epoch: 5 batch: 180 / 273 loss: 1.21648 accuracy: 0.534106
+epoch: 5 batch: 200 / 273 loss: 1.2022 accuracy: 0.536386
+epoch: 5 batch: 220 / 273 loss: 1.20615 accuracy: 0.534106
+epoch: 5 batch: 240 / 273 loss: 1.18975 accuracy: 0.539616
+epoch: 5 batch: 260 / 273 loss: 1.21201 accuracy: 0.535626
+EPOCH: 6
+epoch: 6 batch: 0 / 273 loss: 1.18285 accuracy: 0.543036
+epoch: 6 batch: 20 / 273 loss: 1.17115 accuracy: 0.544366
+epoch: 6 batch: 40 / 273 loss: 1.19507 accuracy: 0.540566
+epoch: 6 batch: 60 / 273 loss: 1.18148 accuracy: 0.542466
+epoch: 6 batch: 80 / 273 loss: 1.22598 accuracy: 0.534296
+epoch: 6 batch: 100 / 273 loss: 1.22151 accuracy: 0.525176
+epoch: 6 batch: 120 / 273 loss: 1.16729 accuracy: 0.545506
+epoch: 6 batch: 140 / 273 loss: 1.16088 accuracy: 0.551016
+epoch: 6 batch: 160 / 273 loss: 1.15291 accuracy: 0.555197
+epoch: 6 batch: 180 / 273 loss: 1.15621 accuracy: 0.548736
+epoch: 6 batch: 200 / 273 loss: 1.14837 accuracy: 0.558047
+epoch: 6 batch: 220 / 273 loss: 1.14924 accuracy: 0.554057
+epoch: 6 batch: 240 / 273 loss: 1.1386 accuracy: 0.565077
+epoch: 6 batch: 260 / 273 loss: 1.12913 accuracy: 0.561657
+EPOCH: 7
+epoch: 7 batch: 0 / 273 loss: 1.15242 accuracy: 0.555957
+epoch: 7 batch: 20 / 273 loss: 1.14567 accuracy: 0.559187
+epoch: 7 batch: 40 / 273 loss: 1.1541 accuracy: 0.553867
+epoch: 7 batch: 60 / 273 loss: 1.14621 accuracy: 0.554057
+epoch: 7 batch: 80 / 273 loss: 1.15045 accuracy: 0.555767
+epoch: 7 batch: 100 / 273 loss: 1.13835 accuracy: 0.569637
+epoch: 7 batch: 120 / 273 loss: 1.14456 accuracy: 0.564507
+epoch: 7 batch: 140 / 273 loss: 1.12201 accuracy: 0.569637
+epoch: 7 batch: 160 / 273 loss: 1.11452 accuracy: 0.573437
+epoch: 7 batch: 180 / 273 loss: 1.13377 accuracy: 0.569257
+epoch: 7 batch: 200 / 273 loss: 1.12078 accuracy: 0.570207
+epoch: 7 batch: 220 / 273 loss: 1.12828 accuracy: 0.570967
+epoch: 7 batch: 240 / 273 loss: 1.15486 accuracy: 0.560137
+epoch: 7 batch: 260 / 273 loss: 1.12381 accuracy: 0.570397
+EPOCH: 8
+epoch: 8 batch: 0 / 273 loss: 1.12126 accuracy: 0.566217
+epoch: 8 batch: 20 / 273 loss: 1.14204 accuracy: 0.560707
+epoch: 8 batch: 40 / 273 loss: 1.12589 accuracy: 0.569067
+epoch: 8 batch: 60 / 273 loss: 1.11056 accuracy: 0.572487
+epoch: 8 batch: 80 / 273 loss: 1.1638 accuracy: 0.569637
+epoch: 8 batch: 100 / 273 loss: 1.11559 accuracy: 0.577807
+epoch: 8 batch: 120 / 273 loss: 1.10884 accuracy: 0.570207
+epoch: 8 batch: 140 / 273 loss: 1.12319 accuracy: 0.578377
+epoch: 8 batch: 160 / 273 loss: 1.12953 accuracy: 0.581417
+epoch: 8 batch: 180 / 273 loss: 1.12754 accuracy: 0.576667
+epoch: 8 batch: 200 / 273 loss: 1.12267 accuracy: 0.564507
+epoch: 8 batch: 220 / 273 loss: 1.08184 accuracy: 0.594148
+epoch: 8 batch: 240 / 273 loss: 1.11515 accuracy: 0.577427
+epoch: 8 batch: 260 / 273 loss: 1.09969 accuracy: 0.584267
+EPOCH: 9
+epoch: 9 batch: 0 / 273 loss: 1.10471 accuracy: 0.575337
+epoch: 9 batch: 20 / 273 loss: 1.10773 accuracy: 0.580847
+epoch: 9 batch: 40 / 273 loss: 1.14232 accuracy: 0.567357
+epoch: 9 batch: 60 / 273 loss: 1.11362 accuracy: 0.580087
+epoch: 9 batch: 80 / 273 loss: 1.13138 accuracy: 0.580657
+epoch: 9 batch: 100 / 273 loss: 1.1242 accuracy: 0.572487
+epoch: 9 batch: 120 / 273 loss: 1.12559 accuracy: 0.581417
+epoch: 9 batch: 140 / 273 loss: 1.1303 accuracy: 0.585407
+epoch: 9 batch: 160 / 273 loss: 1.09855 accuracy: 0.588258
+epoch: 9 batch: 180 / 273 loss: 1.11806 accuracy: 0.576667
+epoch: 9 batch: 200 / 273 loss: 1.11804 accuracy: 0.574387
+epoch: 9 batch: 220 / 273 loss: 1.11561 accuracy: 0.585788
+epoch: 9 batch: 240 / 273 loss: 1.0862 accuracy: 0.587878
+epoch: 9 batch: 260 / 273 loss: 1.10103 accuracy: 0.578187
+EPOCH: 10
+epoch: 10 batch: 0 / 273 loss: 1.08224 accuracy: 0.590158
+epoch: 10 batch: 20 / 273 loss: 1.08717 accuracy: 0.592438
+epoch: 10 batch: 40 / 273 loss: 1.10058 accuracy: 0.586168
+epoch: 10 batch: 60 / 273 loss: 1.1026 accuracy: 0.592058
+epoch: 10 batch: 80 / 273 loss: 1.09295 accuracy: 0.589968
+epoch: 10 batch: 100 / 273 loss: 1.11008 accuracy: 0.589018
+epoch: 10 batch: 120 / 273 loss: 1.14306 accuracy: 0.584647
+epoch: 10 batch: 140 / 273 loss: 1.08981 accuracy: 0.597758
+epoch: 10 batch: 160 / 273 loss: 1.13696 accuracy: 0.587498
+epoch: 10 batch: 180 / 273 loss: 1.0893 accuracy: 0.589968
+epoch: 10 batch: 200 / 273 loss: 1.09549 accuracy: 0.595668
+epoch: 10 batch: 220 / 273 loss: 1.10114 accuracy: 0.600418
+epoch: 10 batch: 240 / 273 loss: 1.11268 accuracy: 0.592058
+epoch: 10 batch: 260 / 273 loss: 1.12797 accuracy: 0.575337
+EPOCH: 11
+epoch: 11 batch: 0 / 273 loss: 1.11293 accuracy: 0.595098
+epoch: 11 batch: 20 / 273 loss: 1.10255 accuracy: 0.598518
+epoch: 11 batch: 40 / 273 loss: 1.13082 accuracy: 0.595478
+epoch: 11 batch: 60 / 273 loss: 1.13494 accuracy: 0.588638
+epoch: 11 batch: 80 / 273 loss: 1.13684 accuracy: 0.582937
+epoch: 11 batch: 100 / 273 loss: 1.11816 accuracy: 0.588068
+epoch: 11 batch: 120 / 273 loss: 1.11073 accuracy: 0.594148
+epoch: 11 batch: 140 / 273 loss: 1.10857 accuracy: 0.589778
+epoch: 11 batch: 160 / 273 loss: 1.12053 accuracy: 0.591108
+epoch: 11 batch: 180 / 273 loss: 1.15031 accuracy: 0.583887
+epoch: 11 batch: 200 / 273 loss: 1.137 accuracy: 0.594148
+epoch: 11 batch: 220 / 273 loss: 1.136 accuracy: 0.586928
+epoch: 11 batch: 240 / 273 loss: 1.12564 accuracy: 0.587878
+epoch: 11 batch: 260 / 273 loss: 1.10305 accuracy: 0.598708
+EPOCH: 12
+epoch: 12 batch: 0 / 273 loss: 1.13034 accuracy: 0.592058
+epoch: 12 batch: 20 / 273 loss: 1.13352 accuracy: 0.588448
+epoch: 12 batch: 40 / 273 loss: 1.14515 accuracy: 0.591298
+epoch: 12 batch: 60 / 273 loss: 1.15471 accuracy: 0.584267
+epoch: 12 batch: 80 / 273 loss: 1.17293 accuracy: 0.580087
+epoch: 12 batch: 100 / 273 loss: 1.13933 accuracy: 0.592628
+epoch: 12 batch: 120 / 273 loss: 1.15563 accuracy: 0.583887
+epoch: 12 batch: 140 / 273 loss: 1.15478 accuracy: 0.589778
+epoch: 12 batch: 160 / 273 loss: 1.15864 accuracy: 0.596618
+epoch: 12 batch: 180 / 273 loss: 1.16712 accuracy: 0.594338
+epoch: 12 batch: 200 / 273 loss: 1.14293 accuracy: 0.590728
+epoch: 12 batch: 220 / 273 loss: 1.14997 accuracy: 0.597378
+epoch: 12 batch: 240 / 273 loss: 1.15289 accuracy: 0.585217
+epoch: 12 batch: 260 / 273 loss: 1.14571 accuracy: 0.590728
+EPOCH: 13
+epoch: 13 batch: 0 / 273 loss: 1.1938 accuracy: 0.586358
+epoch: 13 batch: 20 / 273 loss: 1.19546 accuracy: 0.581417
+epoch: 13 batch: 40 / 273 loss: 1.25189 accuracy: 0.584267
+epoch: 13 batch: 60 / 273 loss: 1.23323 accuracy: 0.576667
+epoch: 13 batch: 80 / 273 loss: 1.19688 accuracy: 0.594528
+epoch: 13 batch: 100 / 273 loss: 1.20727 accuracy: 0.591298
+epoch: 13 batch: 120 / 273 loss: 1.1885 accuracy: 0.588638
+epoch: 13 batch: 140 / 273 loss: 1.17895 accuracy: 0.595288
+epoch: 13 batch: 160 / 273 loss: 1.20276 accuracy: 0.580657
+epoch: 13 batch: 180 / 273 loss: 1.21536 accuracy: 0.591678
+epoch: 13 batch: 200 / 273 loss: 1.17831 accuracy: 0.599088
+epoch: 13 batch: 220 / 273 loss: 1.18436 accuracy: 0.584267
+epoch: 13 batch: 240 / 273 loss: 1.19882 accuracy: 0.596808
+epoch: 13 batch: 260 / 273 loss: 1.19118 accuracy: 0.593388
+EPOCH: 14
+epoch: 14 batch: 0 / 273 loss: 1.2168 accuracy: 0.587688
+epoch: 14 batch: 20 / 273 loss: 1.24204 accuracy: 0.594908
+epoch: 14 batch: 40 / 273 loss: 1.25321 accuracy: 0.582177
+epoch: 14 batch: 60 / 273 loss: 1.28356 accuracy: 0.585407
+epoch: 14 batch: 80 / 273 loss: 1.27333 accuracy: 0.592248
+epoch: 14 batch: 100 / 273 loss: 1.251 accuracy: 0.583887
+epoch: 14 batch: 120 / 273 loss: 1.23086 accuracy: 0.596048
+epoch: 14 batch: 140 / 273 loss: 1.21911 accuracy: 0.581227
+epoch: 14 batch: 160 / 273 loss: 1.29245 accuracy: 0.596048
+epoch: 14 batch: 180 / 273 loss: 1.24786 accuracy: 0.589968
+epoch: 14 batch: 200 / 273 loss: 1.21688 accuracy: 0.589968
+epoch: 14 batch: 220 / 273 loss: 1.22474 accuracy: 0.595288
+epoch: 14 batch: 240 / 273 loss: 1.27767 accuracy: 0.580657
+epoch: 14 batch: 260 / 273 loss: 1.2188 accuracy: 0.595478
+EPOCH: 15
+epoch: 15 batch: 0 / 273 loss: 1.24305 accuracy: 0.589778
+epoch: 15 batch: 20 / 273 loss: 1.29013 accuracy: 0.590538
+epoch: 15 batch: 40 / 273 loss: 1.3126 accuracy: 0.590158
+epoch: 15 batch: 60 / 273 loss: 1.32541 accuracy: 0.591488
+epoch: 15 batch: 80 / 273 loss: 1.30848 accuracy: 0.591678
+epoch: 15 batch: 100 / 273 loss: 1.28006 accuracy: 0.593198
+epoch: 15 batch: 120 / 273 loss: 1.26523 accuracy: 0.597568
+epoch: 15 batch: 140 / 273 loss: 1.31279 accuracy: 0.600988
+epoch: 15 batch: 160 / 273 loss: 1.27424 accuracy: 0.593578
+epoch: 15 batch: 180 / 273 loss: 1.29122 accuracy: 0.598518
+epoch: 15 batch: 200 / 273 loss: 1.27552 accuracy: 0.600988
+epoch: 15 batch: 220 / 273 loss: 1.28922 accuracy: 0.590918
+epoch: 15 batch: 240 / 273 loss: 1.29197 accuracy: 0.587688
+epoch: 15 batch: 260 / 273 loss: 1.31185 accuracy: 0.587308
+EPOCH: 16
+epoch: 16 batch: 0 / 273 loss: 1.29905 accuracy: 0.585217
+epoch: 16 batch: 20 / 273 loss: 1.31424 accuracy: 0.596618
+epoch: 16 batch: 40 / 273 loss: 1.36337 accuracy: 0.593388
+epoch: 16 batch: 60 / 273 loss: 1.36575 accuracy: 0.580087
+epoch: 16 batch: 80 / 273 loss: 1.36238 accuracy: 0.590538
+epoch: 16 batch: 100 / 273 loss: 1.40151 accuracy: 0.578947
+epoch: 16 batch: 120 / 273 loss: 1.32259 accuracy: 0.590348
+epoch: 16 batch: 140 / 273 loss: 1.33596 accuracy: 0.590158
+epoch: 16 batch: 160 / 273 loss: 1.3629 accuracy: 0.581797
+epoch: 16 batch: 180 / 273 loss: 1.36316 accuracy: 0.584837
+epoch: 16 batch: 200 / 273 loss: 1.34317 accuracy: 0.588068
+epoch: 16 batch: 220 / 273 loss: 1.38635 accuracy: 0.585217
+epoch: 16 batch: 240 / 273 loss: 1.33048 accuracy: 0.585217
+epoch: 16 batch: 260 / 273 loss: 1.37459 accuracy: 0.581987
+EPOCH: 17
+epoch: 17 batch: 0 / 273 loss: 1.3519 accuracy: 0.581037
+epoch: 17 batch: 20 / 273 loss: 1.44726 accuracy: 0.594338
+epoch: 17 batch: 40 / 273 loss: 1.42868 accuracy: 0.582557
+epoch: 17 batch: 60 / 273 loss: 1.43208 accuracy: 0.581987
+epoch: 17 batch: 80 / 273 loss: 1.49019 accuracy: 0.580277
+epoch: 17 batch: 100 / 273 loss: 1.44728 accuracy: 0.593578
+epoch: 17 batch: 120 / 273 loss: 1.46418 accuracy: 0.594338
+epoch: 17 batch: 140 / 273 loss: 1.45546 accuracy: 0.585217
+epoch: 17 batch: 160 / 273 loss: 1.44693 accuracy: 0.587308
+epoch: 17 batch: 180 / 273 loss: 1.44139 accuracy: 0.593768
+epoch: 17 batch: 200 / 273 loss: 1.44708 accuracy: 0.589968
+epoch: 17 batch: 220 / 273 loss: 1.43236 accuracy: 0.583317
+epoch: 17 batch: 240 / 273 loss: 1.49626 accuracy: 0.590728
+epoch: 17 batch: 260 / 273 loss: 1.50864 accuracy: 0.583317
+EPOCH: 18
+epoch: 18 batch: 0 / 273 loss: 1.41022 accuracy: 0.590158
+epoch: 18 batch: 20 / 273 loss: 1.55098 accuracy: 0.589208
+epoch: 18 batch: 40 / 273 loss: 1.52611 accuracy: 0.589588
+epoch: 18 batch: 60 / 273 loss: 1.53398 accuracy: 0.586548
+epoch: 18 batch: 80 / 273 loss: 1.5134 accuracy: 0.593958
+epoch: 18 batch: 100 / 273 loss: 1.52274 accuracy: 0.592628
+epoch: 18 batch: 120 / 273 loss: 1.54656 accuracy: 0.587687
+epoch: 18 batch: 140 / 273 loss: 1.54336 accuracy: 0.581607
+epoch: 18 batch: 160 / 273 loss: 1.5384 accuracy: 0.590538
+epoch: 18 batch: 180 / 273 loss: 1.49049 accuracy: 0.586738
+epoch: 18 batch: 200 / 273 loss: 1.5331 accuracy: 0.588828
+epoch: 18 batch: 220 / 273 loss: 1.57952 accuracy: 0.589588
+epoch: 18 batch: 240 / 273 loss: 1.49767 accuracy: 0.586357
+epoch: 18 batch: 260 / 273 loss: 1.56954 accuracy: 0.583507
+EPOCH: 19
+epoch: 19 batch: 0 / 273 loss: 1.55461 accuracy: 0.583887
+epoch: 19 batch: 20 / 273 loss: 1.62495 accuracy: 0.591108
+epoch: 19 batch: 40 / 273 loss: 1.6481 accuracy: 0.588638
+epoch: 19 batch: 60 / 273 loss: 1.63125 accuracy: 0.587878
+epoch: 19 batch: 80 / 273 loss: 1.67603 accuracy: 0.593958
+epoch: 19 batch: 100 / 273 loss: 1.69182 accuracy: 0.583317
+epoch: 19 batch: 120 / 273 loss: 1.65633 accuracy: 0.576857
+epoch: 19 batch: 140 / 273 loss: 1.61087 accuracy: 0.579707
+epoch: 19 batch: 160 / 273 loss: 1.66308 accuracy: 0.589778
+epoch: 19 batch: 180 / 273 loss: 1.67806 accuracy: 0.597568
+epoch: 19 batch: 200 / 273 loss: 1.67589 accuracy: 0.587308
+epoch: 19 batch: 220 / 273 loss: 1.63149 accuracy: 0.576857
+epoch: 19 batch: 240 / 273 loss: 1.60779 accuracy: 0.594528
+epoch: 19 batch: 260 / 273 loss: 1.62273 accuracy: 0.595288
