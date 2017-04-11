@@ -36,10 +36,6 @@ b2 = tf.Variable(tf.constant(0.01,shape=[64]))
 W3 = tf.Variable(tf.truncated_normal([3, 3, 64, 128], stddev=0.01))
 b3 = tf.Variable(tf.constant(0.01,shape=[128]))
 
-# # Weights/Biases for 4th conv layer
-# W4 = tf.Variable(tf.truncated_normal([3, 3, 128, 256], stddev=0.01))
-# b4 = tf.Variable(tf.constant(0.01,shape=[256]))
-
 
 W4 = tf.Variable(tf.truncated_normal([flatten_to, hidden_size], stddev=0.01))
 b4 = tf.Variable(tf.constant(0.01,shape=[hidden_size]))
@@ -110,7 +106,7 @@ X = X.transpose((0, 2, 3, 1))
 X, Y = shuffle(X, Y)
 X = X.astype(np.float32)
 #Transform Y(100, to 100,7 , num labels=7)
-Y = y2indicator(Y).astype(np.float32)
+Y = one_hot_label(Y).astype(np.float32)
 
 print(X.shape,Y.shape)
 
