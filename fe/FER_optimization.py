@@ -79,11 +79,11 @@ output_layer = tf.matmul(hidden_layer2, W6) + b6
 
 
 
-
+learning_rate = tf.placeholder("float32")
 # Loss & optimization
 loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=output_layer, labels=label_ph))
 #opt = tf.train.RMSPropOptimizer(learning_rate = 10e-4,decay=0.99999,momentum=0.99)
-opt = tf.train.AdamOptimizer(learning_rate = 0.001) #tune
+opt = tf.train.AdamOptimizer(learning_rate = learning_rate) #tune
 train_op = opt.minimize(loss)
 # Make Prediction
 predict = (tf.argmax(output_layer,1))
@@ -139,7 +139,7 @@ init = tf.global_variables_initializer()
 
 #append_log = ("LR | Epoch | Batch/Total | Loss | Accuracy")
 
-for LR in [1, 0.1]:
+for LR in [0.01,0.005,0.001,0.00075,0.0005,0.00025,0.0001,0.00005]:
     #losses_per_lr = []
     #acc_per_lr = []
     acc_loss_lr =[]
@@ -153,7 +153,7 @@ for LR in [1, 0.1]:
                 image_batch = X[i*batch_size:(i*batch_size+batch_size)]
                 label_batch = Y[i*batch_size:(i*batch_size+batch_size)]
 
-                sess.run(train_op, feed_dict={image_ph: image_batch, label_ph: label_batch})
+                sess.run(train_op, feed_dict={image_ph: image_batch, label_ph: label_batch,learning_rate:LR})
 
                 if i % 20 == 0:
                     l = sess.run(loss, feed_dict={image_ph: X_val, label_ph: Y_val})
@@ -164,7 +164,7 @@ for LR in [1, 0.1]:
                     #acc_loss_lr.append(append_log)
                     
 
-                    with open('opt_1.csv', 'a') as myfile:
+                    with open('opt.csv', 'a') as myfile:
                         wr = csv.writer(myfile, lineterminator='\n')
                         wr.writerow(append_log)
                     #pred = sess.run(predict, feed_dict={image_ph: X_val, label_ph: Y_val})
