@@ -139,7 +139,7 @@ init = tf.global_variables_initializer()
 
 #append_log = ("LR | Epoch | Batch/Total | Loss | Accuracy")
 
-for LR in [0.01,0.005,0.001,0.00075,0.0005,0.00025,0.0001,0.00005]:
+for LR in [1, 0.1]:
     #losses_per_lr = []
     #acc_per_lr = []
     acc_loss_lr =[]
@@ -164,7 +164,7 @@ for LR in [0.01,0.005,0.001,0.00075,0.0005,0.00025,0.0001,0.00005]:
                     #acc_loss_lr.append(append_log)
                     
 
-                    with open('opt.csv', 'a') as myfile:
+                    with open('opt_1.csv', 'a') as myfile:
                         wr = csv.writer(myfile, lineterminator='\n')
                         wr.writerow(append_log)
                     #pred = sess.run(predict, feed_dict={image_ph: X_val, label_ph: Y_val})
